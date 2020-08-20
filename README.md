@@ -8,7 +8,7 @@
 # Strangely Trump does not like it
 <img src="https://user-images.githubusercontent.com/55017307/90836163-f5dbd300-e34e-11ea-8d2e-bb69afb9c181.jpg" width="1000"/>
 
-# Personally I don't have any problems with it, seems awesome
+# Personally I don't have any problems with it
 
 <div style="display:flex;justify-content:space-evenly;flex:flex-grow;flex-grow:2" >
   
