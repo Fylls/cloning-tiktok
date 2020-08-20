@@ -1,16 +1,15 @@
+// DOM
 import React from "react"
 import "./App.css"
 
-import Video from "./Components/Video"
+// Screens
+import Video from "./Screens/Video"
 
+// App
 function App() {
   return (
     <div className="app">
       <div className="app_videos">
-        <Video />
-        <Video />
-        <Video />
-        <Video />
         <Video />
         <Video />
       </div>
@@ -18,4 +17,5 @@ function App() {
   )
 }
 
+// Export
 export default App

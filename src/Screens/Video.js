@@ -1,7 +1,9 @@
+// DOMs
 import React, { useRef, useState } from "react"
 import "./Video.css"
 
-import VideoFooter from "./VideoFooter"
+// Components
+import VideoFooter from "../Components/VideoFooter"
 
 const videos = [
   "https://v16m.tiktokcdn.com/dbba2163be77b79c78542717eb24e8a0/5f41500d/video/tos/useast2a/tos-useast2a-pve-0068/a09aace3c9b046e3b96e872afee11d64/?a=1233&br=1818&bt=909&cr=0&cs=0&dr=0&ds=3&er=&l=202008201704130101890741590C251657&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=ajlwNGdzZDdsdDMzNjczM0ApaGU5N2U5OGVkNzQ3ODdlOmdfZTNkYi5zbmNfLS0yMTZzc18vYTMtYDUtNmFgYi40XzI6Yw%3D%3D&vl=&vr=",
@@ -11,6 +13,7 @@ const videos = [
   "https://v16m.tiktokcdn.com/843c123d62455134ab3845cf69225a24/5f4150ff/video/tos/useast2a/tos-useast2a-pve-0068/c2f3d2372ae4439d9e72458123701913/?a=1233&br=2842&bt=1421&cr=0&cs=0&dr=0&ds=3&er=&l=2020082017081501018806120314252FB1&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=ajh5dWlwdjd4djMzNDczM0ApNWU0NmQ5NWUzN2k0Ozg0aGdhX3BfZS0za2RfLS00MTZzcy4wYl9iXmE2XzJhXi42Xy46Yw%3D%3D&vl=&vr=",
 ]
 
+// Screen
 function Video() {
   const [playing, setPlaying] = useState(false)
   const videoRef = useRef(null)
@@ -30,8 +33,14 @@ function Video() {
         ref={videoRef}
         src="https://v16m.tiktokcdn.com/dbba2163be77b79c78542717eb24e8a0/5f41500d/video/tos/useast2a/tos-useast2a-pve-0068/a09aace3c9b046e3b96e872afee11d64/?a=1233&br=1818&bt=909&cr=0&cs=0&dr=0&ds=3&er=&l=202008201704130101890741590C251657&lr=tiktok_m&mime_type=video_mp4&qs=0&rc=ajlwNGdzZDdsdDMzNjczM0ApaGU5N2U5OGVkNzQ3ODdlOmdfZTNkYi5zbmNfLS0yMTZzc18vYTMtYDUtNmFgYi40XzI6Yw%3D%3D&vl=&vr="
       ></video>
+      <VideoFooter
+        channel="Fylls"
+        description="Loooooooooooooooool"
+        song="funny song"
+      />
     </div>
   )
 }
 
+// Export
 export default Video
