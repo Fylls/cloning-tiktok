@@ -10,7 +10,7 @@
 
 # Personally I don't have any problems with it, seems awesome
 
-<div style="display: flex;justify-content:space-evenly;flex-grow: 2" >
+<div style="display:flex;justify-content:space-evenly;flex:flex-grow;flex-grow:2" >
   
    <img src="https://user-images.githubusercontent.com/55017307/90836592-15bfc680-e350-11ea-9e80-fe6fdcbba537.gif" width="300"/>
    <img src="https://user-images.githubusercontent.com/55017307/90836781-9252a500-e350-11ea-9a2d-fdeaae8d0400.gif" width="300"/>
